@@ -1,0 +1,114 @@
+body {
+  background-image: url("../assets/Background-Maxgrind.png");
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+
+h1 {
+    color: #fff;
+}
+
+
+.registro {
+    background-color: #242424;
+    border-radius: 20px;
+    padding: 40px;
+    width: 350px;
+    border: solid 1px rgb(131, 108, 64);
+}
+
+
+.registro-header {
+    text-align: center;
+    margin-bottom: -2vh;
+}
+
+
+.logo {
+    border-radius: 100%;
+    width: 40%;
+    height: auto;
+}
+
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 30px;
+}
+
+
+input {
+    width: 100%;
+    padding: 14px;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: #302e2e;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.login {
+    width: 100%;
+    padding: 15px;
+    background-color: #ffb700;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 4px rgb(29, 26, 26);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        margin-top: 50px;
+        padding: 20px;
+    }
+    .registro {
+        width: 80%;
+        padding: 30px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        margin-top: 20px;
+        padding: 15px;
+    }
+    .registro {
+        width: 100%;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    input, .login {
+        font-size: 14px;
+        padding: 12px;
+    }
+    .logo {
+        width: 40%;
+        height: 40%;
+
+    }
+}
